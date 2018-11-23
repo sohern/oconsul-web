@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="OCONSUL is the online home of OHERN Consulting: a full-service business, web, and technical writing company. With strong backgrounds in e-learning, enterprise web development, application architecture, education, and technical writing, we make a perfect partner for helping you get all of your product documentation in order.">
+    <meta name="author" content="OHERN Consulting">
+
+    <title>OCONSUL | OHERN Consulting | Services Firm focused on Technical Writing, E-Learning and Training, and Content Creation</title>
+    <!-- Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#17809e">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Oconsul">
+    <meta name="application-name" content="Oconsul">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+     <!-- update the version number as needed -->
+     <script src="/__/firebase/5.5.9/firebase-app.js"></script>
+     <!-- include only required Firebase features  -->
+     <script defer src="/__/firebase/5.5.9/firebase-auth.js"></script>
+     <script defer src="/__/firebase/5.5.9/firebase-database.js"></script>
+     <script defer src="/__/firebase/5.5.9/firebase-messaging.js"></script>
+     <script defer src="/__/firebase/5.5.9/firebase-storage.js"></script>
+     <script defer src="/__/firebase/5.5.9/firebase-firestore.js"></script>
+
+      <!-- initialize the SDK after all desired features are loaded -->
+     <script defer src="/__/firebase/init.js"></script>
+      
+     <!-- Custom site files.... -->
+     <!-- Contact Us Form -->
+    <script defer src="js/request-info.js"></script>
+    <script defer src="js/modal.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Oconsul</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Services</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Projects</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <img src="img/oconsul.png">
+        <h1 class="mb-1">&nbsp;</h1>
+        <h3 class="mb-5 subtitle">
+          <em>Tell us what you need and when. It's as good as done.</em>
+        </h3>
+        <p class="lead mb-5 intro">OHERN Consulting offers a wide range of consulting services with a focus in producing written products that satisfy regulatory requirements. These include formal policies and specific plans and actions addressing security, privacy, incident response, and contingency from a technical perspective. Our solutions range from print-ready products to digital delivery. We have the team, skills, and tools to deliver, and we pride ourselves in working directly with our clients to provide products that satisfy auditors but are also useful for the organization.</p>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Consulting Services</h2>
+            <p class="lead mb-5">We are writer-developers ready to turn your vision into written products you are proud to call your own.
+              </p>
+              <p class="lead mb-5">With backgrounds in IT consulting, software development, technical writing, education, and geomatics, we have a broad background that enriches the projects we complete for our clients.</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Services</h3>
+          <h2 class="mb-5">What We Offer</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-docs"></i>
+            </span>
+            <h4>
+              <strong>Technical Writing</strong>
+            </h4>
+            <p class="text-faded mb-0">End-user instructions, whitepapers for potential customers, and policies and procedures for governance.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+            <h4>
+              <strong>Content Creation</strong>
+            </h4>
+            <p class="text-faded mb-0">Original content researched, created, and revised by experienced writers and editors.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-shield"></i>
+            </span>
+            <h4>
+              <strong>Framework Knowledge</strong>
+            </h4>
+            <p class="text-faded mb-0">We have proven experience working with common documentation frameworks and standards.</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-directions"></i>
+            </span>
+            <h4>
+              <strong>E-Learning & Training</strong>
+            </h4>
+            <p class="text-faded mb-0">Training and Job aid creation. E-Learning development using Adapt and Captivate. LMS integration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Callout -->
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto quotation mb-4 text-faded">We eliminate a common pain point in product development by creating the supplemental material required of a complete product. This is often effort that no one internally wants or has time to take on.</h2>
+        <a class="btn btn-primary btn-xl" href="#contact">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Projects</h3>
+          <h2 class="mb-5">Focus Areas</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Technical Writing</h2>
+                  <p class="mb-0">We can create everything from product documentation for potential clients, technical teams, and end users. Descriptive copy for product packaging. All expertly styled with original graphics. </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Third-Party Service Provider Audits</h2>
+                  <p class="mb-0">We have strong experience helping companies develop privacy, security, and business continuity policies and plans required for third-party audits such as SAS-70 or SAE-16. Our knowledge of the ISO and NIST guidelines yields products that can help structure your operations.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>E-Learning and Training</h2>
+                  <p class="mb-0">Training materials for complex products and concepts or compliance. We have significant experience with security and privacy awareness training. E-learning development via common tools and LMS integration. We can provide all of  the the supporting soft product that provides the polish for what your business produces.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Content Creation</h2>
+                  <p class="mb-0">We develop quality long-form content and descriptive copy. Our work is based on old-fashioned research and discovery. It is fresh and original and never involves content generation tools. Our writing is always reviewed by multiple editors for style, grammar, and accuracy. We can also help manage your content to keep your site fresh.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="contact" class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Contact Us to Learn More ...</h2>
+        <a id="contact-button" class="btn btn-xl btn-light mr-4">Show Contact Card</a>
+        <a href="#contactInfo" class="btn btn-xl btn-dark">Request More Information</a>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56195.819103718415!2d-80.62737168893659!3d28.321377325362135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88de1cc253486439%3A0xa5d8170cdab472c6!2sCocoa+Beach%2C+FL+32931!5e0!3m2!1sen!2sus!4v1542295422442" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe><br/>
+      <small>
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56195.819103718415!2d-80.62737168893659!3d28.321377325362135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88de1cc253486439%3A0xa5d8170cdab472c6!2sCocoa+Beach%2C+FL+32931!5e0!3m2!1sen!2sus!4v1542295422442"></a>
+      </small>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section" id="contactInfo">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-5">How Can We Help?</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+            matter of hours to help you.</p>
+    
+        <div class="formrow">
+    
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="formrow">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Name</label>
+                                <input type="text" id="name" name="name" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Email Address</label>
+                                <input type="text" id="email" name="email" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="formrow">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <label for="subject" class="">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="formrow">
+    
+                        <!--Grid column-->
+                        <div class="col-md-12">
+    
+                            <div class="md-form mb-5">
+                                <label for="message">Message</label>
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                </form>
+    
+                <div class="formrow">
+                <div class="formrow text-center text-md-left">
+                    <a class="btn btn-primary btn-xl" onclick="submitInfoRequest(db, document.getElementById('contact-form'));">Send</a>
+                </div>
+                <div class="status"></div>
+              </div>
+            </div>
+           
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fa fa-map-marker fa-2x"></i>
+                        <p>Cocoa Beach, FL 32931, USA</p>
+                    </li>
+    
+                    <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                        <p>205 566 1943</p>
+                    </li>
+    
+                    <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                        <p>sean.ohern@oconsul.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+    
+        </div>
+    
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+         <!-- 
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="#">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+         -->
+        <p class="text-muted small mb-0">Copyright &copy; OHERN Consulting 2018</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Contact Box -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 style="text-align:right" class="mb-4">To reach us ...</h2>
+        <p>By Phone: 205.566.1943
+        <p>By Email: sean.ohern@oconsul.com</p>
+        </p>
+      </div>
+  
+    </div>
+
+    <!-- Firebase config -->
+    <script>
+      var config = {
+        apiKey: "AIzaSyAsdfnwi2mIy1-Nnsw1MSl01YYIM7uJ_0M",
+        authDomain: "oconsul-web.firebaseapp.com",
+        databaseURL: "https://oconsul-web.firebaseio.com",
+        projectId: "oconsul-web",
+        storageBucket: "oconsul-web.appspot.com",
+        messagingSenderId: "288107476026"
+      };
+    </script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
+</html>
