@@ -10,6 +10,7 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal 
 contactButton.onclick = () => {
     modal.style.display = "block";
+    return false;
 }
 
 // When the user clicks on <span> (x), close the modal

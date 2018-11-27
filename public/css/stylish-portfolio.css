@@ -435,3 +435,16 @@ a:hover, a:focus, a:active {
   text-decoration: none;
   cursor: pointer;
 }
+
+#contact-status {
+  display: none;
+  padding-left: 100px;
+  color: red;
+}
+
+.submitted-overlay {
+  background-color: lightgray;
+  opacity: 0.8;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}

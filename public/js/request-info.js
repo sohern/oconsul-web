@@ -22,9 +22,12 @@ var submitInfoRequest = (db, requestForm) => {
     .then(function(docRef) {
         console.log("Document written with ID: ", docRef.id);
 
-        // Need to modify display to show that user submission worked
-
-
+        // Show user submission worked
+        $("#contact-status").css("display", "inline");
+        $("#contact-overlay").addClass("submitted-overlay");
+        $(".form-wrapper").css("color", "chocolate");
+        $("#contact-form .form-control").attr("disabled", "true");
+        $("#contact-submit-button").addClass("disabled");
 
     })
     .catch(function(error) {
