@@ -19,7 +19,7 @@ var submitInfoRequest = (db, requestForm) => {
         subject: subject,
         message: message
     })
-    .then(function(docRef) {
+    .then((docRef) => {
         console.log("Document written with ID: ", docRef.id);
 
         // Show user submission worked
@@ -30,7 +30,7 @@ var submitInfoRequest = (db, requestForm) => {
         $("#contact-submit-button").addClass("disabled");
 
     })
-    .catch(function(error) {
+    .catch((error) => {
         console.error("Error adding document: ", error);
     });
     
