@@ -7,7 +7,7 @@ db.settings({
     timestampsInSnapshots: true
 });
 
-var submitInfoRequest = (db, requestForm) => {
+var submitInfoRequest = (requestForm) => {
     let name = requestForm.elements[0].value;
     let email = requestForm.elements[1].value;
     let subject = requestForm.elements[2].value;

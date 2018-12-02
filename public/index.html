@@ -22,7 +22,7 @@
     <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-     <!-- update the version number as needed -->
+     <!-- Firebase dependencies: update the version number as needed -->
      <script src="/__/firebase/5.5.9/firebase-app.js"></script>
      <!-- include only required Firebase features  -->
      <script defer src="/__/firebase/5.5.9/firebase-auth.js"></script>
@@ -31,12 +31,13 @@
      <script defer src="/__/firebase/5.5.9/firebase-storage.js"></script>
      <script defer src="/__/firebase/5.5.9/firebase-firestore.js"></script>
 
-      <!-- initialize the SDK after all desired features are loaded -->
+      <!-- initialize the Firebase DK after all desired features are loaded -->
      <script defer src="/__/firebase/init.js"></script>
       
      <!-- Custom site files.... -->
      <!-- Contact Us Form -->
     <script defer src="js/request-info.js"></script>
+     <!-- Contact Info Modal Dialog -->
     <script defer src="js/modal.js"></script>
 
     <!-- Bootstrap Core CSS -->
@@ -306,7 +307,7 @@
     
                 <div class="formrow">
                 <div class="formrow text-center text-md-left">
-                    <a id="contact-submit-button" class="btn btn-primary btn-xl" onclick="submitInfoRequest(db, document.getElementById('contact-form'));">Send</a>
+                    <a id="contact-submit-button" class="btn btn-primary btn-xl" onclick="submitInfoRequest(document.getElementById('contact-form'));">Send</a>
                 </div>
                 <div class="status"><span id="contact-status">Thank you for your submission. We will get back with you soon.</span></div>
               </div>
